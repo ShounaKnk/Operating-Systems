@@ -14,10 +14,10 @@ struct Process
 
 void disptable(int n, int fp, double bt[], double at[], double wt[], double tt[], vector<pair<string,double>>gchart)
 {
-    cout<< "Process\t\tBurst Time\tArrival Time\tPriority\tWaiting Time\tTurnAround Time"<<endl;
+    cout<< "Process\t\tBurst Time\tArrival Time\tWaiting Time\tTurnAround Time"<<endl;
     for(int i=0; i< n; i++)
     {
-        cout<<"p"<<i+1<<"\t\t"<<bt[i]<<"\t\t"<<at[i]<<"\t\t"<<"\t\t"<<wt[i]<<"\t\t"<<tt[i]<<endl;
+        cout<<"p"<<i+1<<"\t\t"<<bt[i]<<"\t\t"<<at[i]<<"\t\t"<<wt[i]<<"\t\t"<<tt[i]<<endl;
     }
     cout<<endl;
     cout<<"Gantt Chart: "<<endl<<"|  ";
